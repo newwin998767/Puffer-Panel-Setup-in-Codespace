@@ -1,5 +1,5 @@
 sudo apt update
-mkdir -p /pufferpanel/config /pufferpanel/data
+mkdir -p pufferpanel/config pufferpanel/data
 docker pull pufferpanel/pufferpanel:latest
 docker volume create pufferpanel-config
 docker run -d \
@@ -11,4 +11,8 @@ docker run -d \
   -v /var/run/docker.sock:/var/run/docker.sock \
   --restart unless-stopped \
   pufferpanel/pufferpanel:latest
-docker exec -it pufferpanel pufferpanel user add
+docker exec -it pufferpanel sh
+
+
+/pufferpanel/bin/pufferpanel user add
+exit
