@@ -1,6 +1,6 @@
 # PufferPanel setup in GitHub Codespaces
 
-This repository contains a simple setup script for running [PufferPanel](https://pufferpanel.com/) inside a GitHub Codespace. The current workflow uses a root-level script, [setup.sh](setup.sh), to install Docker, pull the PufferPanel image, create persistent folders and a Docker volume, and start the container.
+This repository contains a simple setup script for running [PufferPanel](https://pufferpanel.com/) inside a GitHub Codespace. The current workflow uses a root-level script, [setup.sh](setup.sh), to[...]
 
 ## What the current setup does
 
@@ -55,18 +55,39 @@ This repository contains a simple setup script for running [PufferPanel](https:/
 - If the PufferPanel web UI does not load, verify that port `8080` is published and public.
 - If the container is not running, start it manually with `docker start pufferpanel`.
 
-## Useful commands :
-Check running containers
-docker ps
-View logs
-docker logs pufferpanel
-Restart PufferPanel
-docker restart pufferpanel
-Stop PufferPanel
-docker stop pufferpanel
-Start PufferPanel
-docker start pufferpanel
-Remove PufferPanel
-docker rm -f pufferpanel
-Enter the container again
-docker exec -it pufferpanel sh
+## Useful commands
+
+- Check running containers:
+  ```bash
+  docker ps
+  ```
+
+- View logs:
+  ```bash
+  docker logs pufferpanel
+  ```
+
+- Restart PufferPanel:
+  ```bash
+  docker restart pufferpanel
+  ```
+
+- Stop PufferPanel:
+  ```bash
+  docker stop pufferpanel
+  ```
+
+- Start PufferPanel:
+  ```bash
+  docker start pufferpanel
+  ```
+
+- Remove PufferPanel:
+  ```bash
+  docker rm -f pufferpanel
+  ```
+
+- Enter the container again:
+  ```bash
+  docker exec -it pufferpanel sh
+  ```
