@@ -54,3 +54,19 @@ This repository contains a simple setup script for running [PufferPanel](https:/
 - If Docker is not available, wait a moment and run the setup script again.
 - If the PufferPanel web UI does not load, verify that port `8080` is published and public.
 - If the container is not running, start it manually with `docker start pufferpanel`.
+
+## Useful commands :
+Check running containers
+docker ps
+View logs
+docker logs pufferpanel
+Restart PufferPanel
+docker restart pufferpanel
+Stop PufferPanel
+docker stop pufferpanel
+Start PufferPanel
+docker start pufferpanel
+Remove PufferPanel
+docker rm -f pufferpanel
+Enter the container again
+docker exec -it pufferpanel sh
