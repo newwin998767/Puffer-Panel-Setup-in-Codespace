@@ -138,9 +138,9 @@ docker run -d \
   --name pufferpanel \
   -p 8080:8080 \
   -p 5657:5657 \
-  -v pufferpanel-config:/etc/pufferpanel \
-  -v /pufferpanel/data:/var/lib/pufferpanel \
   -v /var/run/docker.sock:/var/run/docker.sock \
+  -v pufferpanel-config:/etc/pufferpanel \
+  -v "$(pwd)/pufferpanel/data:/var/lib/pufferpanel" \
   --restart unless-stopped \
   pufferpanel/pufferpanel:latest
 
