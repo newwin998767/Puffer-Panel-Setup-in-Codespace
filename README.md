@@ -122,14 +122,10 @@ devcontainer, here's the full sequence:
 
 ```bash
 # 1. Update packages
-sudo apt update && sudo apt upgrade -y
-
-# 2. Install Docker if it's not already there
-docker --version || { sudo apt install docker.io -y; sudo service docker start; }
-docker run hello-world   # sanity check
+sudo apt update
 
 # 3. Create folders
-mkdir -p ~/pufferpanel/config ~/pufferpanel/data
+mkdir -p /pufferpanel/config /pufferpanel/data
 
 # 4. Pull the image
 docker pull pufferpanel/pufferpanel:latest
@@ -143,7 +139,7 @@ docker run -d \
   -p 8080:8080 \
   -p 5657:5657 \
   -v pufferpanel-config:/etc/pufferpanel \
-  -v ~/pufferpanel/data:/var/lib/pufferpanel \
+  -v /pufferpanel/data:/var/lib/pufferpanel \
   -v /var/run/docker.sock:/var/run/docker.sock \
   --restart unless-stopped \
   pufferpanel/pufferpanel:latest
