@@ -1,0 +1,91 @@
+[15:33:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:33:09] [ServerMain/INFO]: Loaded 1174 recipes
+[15:33:09] [ServerMain/INFO]: Loaded 1271 advancements
+[15:33:10] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[15:33:10] [Server thread/INFO]: Loading properties
+[15:33:10] [Server thread/INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[15:33:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:33:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:33:11] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[15:33:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[15:33:12] [Server thread/INFO]: Default game type: SURVIVAL
+[15:33:12] [Server thread/INFO]: Generating keypair
+[15:33:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:33:12] [Server thread/INFO]: Using epoll channel type
+[15:33:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:33:12] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[15:33:12] [Server thread/INFO]: [CommandAPI] Loading server plugin CommandAPI v12.0.0
+[15:33:13] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
+[15:33:13] [Server thread/INFO]: [CommandAPI] Loaded platform SpigotNMS_1_20_R3 > CommandAPISpigot > CommandAPIBukkit
+[15:33:13] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.1.0
+[15:33:13] [Server thread/INFO]: [DayCounter] Loading server plugin DayCounter v1.2.0
+[15:33:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:33:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:33:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:33:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:33:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:33:13] [Server thread/INFO]: Preparing level "world"
+[15:33:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:33:14] [Server thread/INFO]: Time elapsed: 713 ms
+[15:33:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:33:15] [Server thread/INFO]: Time elapsed: 154 ms
+[15:33:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:33:15] [Server thread/INFO]: Time elapsed: 150 ms
+[15:33:15] [Server thread/INFO]: [CommandAPI] Enabling CommandAPI v12.0.0
+[15:33:15] [Server thread/INFO]: [TAB] Enabling TAB v6.1.0
+[15:33:15] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.v1_20_R3.NMSImplementationProvider
+[15:33:16] [Server thread/INFO]: [TAB] Enabled in 1024ms
+[15:33:16] [Server thread/INFO]: [DayCounter] Enabling DayCounter v1.2.0
+[15:33:16] [Server thread/INFO]: [DayCounter] Plugin successfully enabled and loaded!
+[15:33:17] [Server thread/INFO]: Running delayed init tasks
+[15:33:17] [Server thread/INFO]: [CommandAPI] Linked 2 Bukkit permissions to commands
+[15:33:17] [Server thread/INFO]: Done (6.801s)! For help, type "help"
+[15:33:17] [Server thread/INFO]: Timings Reset
+[15:33:26] [User Authenticator #0/INFO]: UUID of player ROFIOUS is 9e719473-443e-3d6e-bead-d220ff3de96c
+[15:33:27] [Server thread/INFO]: ROFIOUS joined the game
+[15:33:27] [TAB Processing Thread/INFO]: [TAB] [WARN] Player ROFIOUS's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[15:33:27] [Server thread/INFO]: ROFIOUS[/100.105.249.45:58484] logged in with entity id 273 at ([world]247.33576884487778, 63.0, 69.48541133589539)
+[15:33:51] [Server thread/INFO]: ROFIOUS issued server command: /daycounter
+[15:34:00] [Server thread/INFO]: ROFIOUS issued server command: /daycounter messages sendChat true
+[15:34:22] [Server thread/INFO]: ROFIOUS has made the advancement [Stone Age]
+[15:34:28] [Server thread/INFO]: ROFIOUS has made the advancement [Getting an Upgrade]
+[15:37:14] [Server thread/INFO]: ROFIOUS has made the advancement [Sweet Dreams]
+[15:37:39] [Server thread/INFO]: Made ROFIOUS a server operator
+[15:37:50] [Server thread/INFO]: ROFIOUS issued server command: /seed
+[15:40:31] [Server thread/INFO]: ROFIOUS issued server command: /daycounter messages sendActionbar true
+[15:46:12] [Server thread/INFO]: ROFIOUS has made the advancement [Acquire Hardware]
+[15:50:42] [Server thread/INFO]: Stopping the server
+[15:50:42] [Server thread/INFO]: Stopping server
+[15:50:42] [Server thread/INFO]: [DayCounter] Disabling DayCounter v1.2.0
+[15:50:42] [Server thread/INFO]: [DayCounter] Plugin successfully disabled and unloaded!
+[15:50:43] [Server thread/INFO]: [TAB] Disabling TAB v6.1.0
+[15:50:43] [Server thread/INFO]: [TAB] Disabled in 17ms
+[15:50:43] [Server thread/INFO]: [CommandAPI] Disabling CommandAPI v12.0.0
+[15:50:43] [Server thread/INFO]: Saving players
+[15:50:43] [Server thread/INFO]: ROFIOUS lost connection: Server closed
+[15:50:43] [Server thread/INFO]: ROFIOUS left the game
+[15:50:43] [Server thread/INFO]: Saving worlds
+[15:50:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:50:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:50:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:50:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:50:46] [Server thread/INFO]: [ChunkHolderManager] Saved 2126 block chunks, 314 entity chunks, 3 poi chunks in world 'world' in 3.63s
+[15:50:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:50:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:50:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:50:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:50:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:50:47] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[15:50:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:50:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:50:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:50:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:50:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:50:47] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[15:50:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:50:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:50:47] [Server thread/INFO]: Flushing Chunk IO
+[15:50:47] [Server thread/INFO]: Closing Thread Pool
+[15:50:47] [Server thread/INFO]: Closing Server
