@@ -1,0 +1,224 @@
+[2026-08-11 19:34:02][INFO] Loading resources...
+[2026-08-11 19:34:02][FINE] Loading resources from: bluemap/resourceExtensions.zip ...
+[2026-08-11 19:34:03][FINE] Loading resources from: bluemap/minecraft-client-1.20.4.jar ...
+[2026-08-11 19:34:04][FINE] Collecting texture-keys...
+[2026-08-11 19:34:04][FINE] Found 1060 texture-keys.
+[2026-08-11 19:34:04][FINE] Loading textures from: bluemap/resourceExtensions.zip ...
+[2026-08-11 19:34:04][FINE] Loading textures from: bluemap/minecraft-client-1.20.4.jar ...
+[2026-08-11 19:34:08][FINE] Baking resources...
+[2026-08-11 19:34:08][INFO] Resources loaded.
+[2026-08-11 19:34:08][FINE] Loading world world#minecraft:overworld ...
+[2026-08-11 19:34:08][FINE] Loading datapack...
+[2026-08-11 19:34:08][FINE] Loading datapack from: world/datapacks/bukkit ...
+[2026-08-11 19:34:08][FINE] Loading datapack from: bluemap/resourceExtensions.zip ...
+[2026-08-11 19:34:08][FINE] Loading datapack from: bluemap/minecraft-client-1.20.4.jar ...
+[2026-08-11 19:34:09][FINE] Baking datapack...
+[2026-08-11 19:34:09][FINE] Datapack loaded.
+[2026-08-11 19:34:09][INFO] Initializing Storage: 'file' (Type: 'bluemap:file')
+[2026-08-11 19:34:09][INFO] Loading map 'world'...
+[2026-08-11 19:34:09][FINE] Loading render-state for map 'world'
+[2026-08-11 19:34:09][FINE] Loading textures for map 'world'
+[2026-08-11 19:34:10][FINE] Loading world world_the_end#minecraft:the_end ...
+[2026-08-11 19:34:10][FINE] Loading datapack...
+[2026-08-11 19:34:10][FINE] Loading datapack from: bluemap/resourceExtensions.zip ...
+[2026-08-11 19:34:10][FINE] Loading datapack from: bluemap/minecraft-client-1.20.4.jar ...
+[2026-08-11 19:34:10][FINE] Baking datapack...
+[2026-08-11 19:34:10][FINE] Datapack loaded.
+[2026-08-11 19:34:10][INFO] Loading map 'world_the_end'...
+[2026-08-11 19:34:10][FINE] Loading render-state for map 'world_the_end'
+[2026-08-11 19:34:10][FINE] Loading textures for map 'world_the_end'
+[2026-08-11 19:34:10][FINE] Loading world world_nether#minecraft:the_nether ...
+[2026-08-11 19:34:10][FINE] Loading datapack...
+[2026-08-11 19:34:10][FINE] Loading datapack from: bluemap/resourceExtensions.zip ...
+[2026-08-11 19:34:10][FINE] Loading datapack from: bluemap/minecraft-client-1.20.4.jar ...
+[2026-08-11 19:34:10][FINE] Baking datapack...
+[2026-08-11 19:34:10][FINE] Datapack loaded.
+[2026-08-11 19:34:10][INFO] Loading map 'world_nether'...
+[2026-08-11 19:34:10][FINE] Loading render-state for map 'world_nether'
+[2026-08-11 19:34:10][FINE] Loading textures for map 'world_nether'
+[2026-08-11 19:34:11][INFO] WebServer bound to all network interfaces on port 8100
+[2026-08-11 19:34:11][INFO] WebServer started.
+[2026-08-11 19:34:11][FINE] Started watching map 'world' for updates...
+[2026-08-11 19:34:11][FINE] Started watching map 'world_the_end' for updates...
+[2026-08-11 19:34:11][FINE] Started watching map 'world_nether' for updates...
+[2026-08-11 19:34:11][INFO] Loaded!
+[2026-08-11 19:34:39][FINE] Failed to load skin from mojang for player: '27807e28-542e-31a5-ad21-c6dbb8f27607' - java.io.IOException: java.lang.IllegalStateException: Not a JSON Object: null
+[2026-08-11 19:34:39][FINE] No player-skin provided for UUID: 27807e28-542e-31a5-ad21-c6dbb8f27607
+[2026-08-11 19:34:49][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 19:35:00][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:35:05][FINE] Failed to load skin from mojang for player: '9e719473-443e-3d6e-bead-d220ff3de96c' - java.io.IOException: java.lang.IllegalStateException: Not a JSON Object: null
+[2026-08-11 19:35:05][FINE] No player-skin provided for UUID: 9e719473-443e-3d6e-bead-d220ff3de96c
+[2026-08-11 19:35:10][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:35:12][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:35:13][FINE] Scheduled update for region-file: (9, -3) (Map: world)
+[2026-08-11 19:35:13][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:35:28][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:35:30][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:35:30][FINE] Scheduled update for region-file: (9, -3) (Map: world)
+[2026-08-11 19:35:30][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:36:05][FINE] Scheduled update for region-file: (9, -3) (Map: world)
+[2026-08-11 19:36:05][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:36:05][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:36:05][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:39:26][FINE] Scheduled update for region-file: (-1, -1) (Map: world_nether)
+[2026-08-11 19:39:26][FINE] Scheduled update for region-file: (-1, -1) (Map: world_the_end)
+[2026-08-11 19:39:30][FINE] Scheduled update for region-file: (-1, 0) (Map: world_nether)
+[2026-08-11 19:39:31][FINE] Scheduled update for region-file: (-1, 0) (Map: world_the_end)
+[2026-08-11 19:39:33][FINE] Scheduled update for region-file: (0, -1) (Map: world_nether)
+[2026-08-11 19:39:34][FINE] Scheduled update for region-file: (0, -1) (Map: world_the_end)
+[2026-08-11 19:39:36][FINE] Scheduled update for region-file: (-1, -1) (Map: world)
+[2026-08-11 19:39:36][FINE] Scheduled update for region-file: (0, -1) (Map: world)
+[2026-08-11 19:39:36][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 19:39:36][FINE] Scheduled update for region-file: (0, 0) (Map: world_the_end)
+[2026-08-11 19:39:37][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:39:38][FINE] Scheduled update for region-file: (9, -3) (Map: world)
+[2026-08-11 19:39:38][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:40:00][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:40:00][FINE] Scheduled update for region-file: (9, -3) (Map: world)
+[2026-08-11 19:40:15][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 19:40:15][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:40:27][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:40:27][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:40:27][FINE] Scheduled update for region-file: (8, -1) (Map: world)
+[2026-08-11 19:40:28][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 19:40:29][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:40:34][FINE] Scheduled update for region-file: (8, -1) (Map: world)
+[2026-08-11 19:40:34][FINE] Scheduled update for region-file: (9, -1) (Map: world)
+[2026-08-11 19:40:38][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 19:40:43][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:40:43][FINE] Scheduled update for region-file: (8, -1) (Map: world)
+[2026-08-11 19:40:43][FINE] Scheduled update for region-file: (9, -1) (Map: world)
+[2026-08-11 19:40:44][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:40:44][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:40:55][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:40:56][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:40:56][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:41:08][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:41:14][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 19:41:26][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:41:26][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:41:38][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:41:44][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:41:45][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:41:45][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:41:52][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:41:52][FINE] Scheduled update for region-file: (9, -3) (Map: world)
+[2026-08-11 19:41:56][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:41:58][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:42:00][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:42:07][FINE] Scheduled update for region-file: (9, -3) (Map: world)
+[2026-08-11 19:42:08][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:42:17][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 19:42:17][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:42:20][FINE] Scheduled update for region-file: (9, -3) (Map: world)
+[2026-08-11 19:42:20][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:42:25][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:42:37][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:42:37][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:42:47][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 19:42:47][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:42:48][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:42:56][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:42:56][FINE] Scheduled update for region-file: (9, -3) (Map: world)
+[2026-08-11 19:42:56][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:43:03][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 19:43:07][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:43:07][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:43:08][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:43:08][FINE] Scheduled update for region-file: (9, -3) (Map: world)
+[2026-08-11 19:43:14][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 19:43:14][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:43:17][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:43:20][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:43:22][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:43:30][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:43:30][FINE] Scheduled update for region-file: (9, -3) (Map: world)
+[2026-08-11 19:43:58][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:44:00][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:44:00][FINE] Scheduled update for region-file: (9, -3) (Map: world)
+[2026-08-11 19:44:10][FINE] Scheduled update for region-file: (8, -1) (Map: world)
+[2026-08-11 19:44:14][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:44:15][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:44:22][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 19:44:29][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:44:30][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:44:49][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:44:49][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:44:55][FINE] Scheduled update for region-file: (8, -3) (Map: world)
+[2026-08-11 19:44:55][FINE] Scheduled update for region-file: (9, -3) (Map: world)
+[2026-08-11 19:44:56][FINE] Scheduled update for region-file: (9, -2) (Map: world)
+[2026-08-11 19:44:57][FINE] Scheduled update for region-file: (8, -2) (Map: world)
+[2026-08-11 19:45:11][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:45:37][FINE] Scheduled update for region-file: (4, -2) (Map: world)
+[2026-08-11 19:45:37][FINE] Scheduled update for region-file: (4, -1) (Map: world)
+[2026-08-11 19:46:08][FINE] Scheduled update for region-file: (4, -2) (Map: world)
+[2026-08-11 19:46:08][FINE] Scheduled update for region-file: (4, -1) (Map: world)
+[2026-08-11 19:46:50][FINE] Scheduled update for region-file: (4, -2) (Map: world)
+[2026-08-11 19:46:50][FINE] Scheduled update for region-file: (4, -1) (Map: world)
+[2026-08-11 19:48:39][FINE] Scheduled update for region-file: (4, -2) (Map: world)
+[2026-08-11 19:48:39][FINE] Scheduled update for region-file: (4, -1) (Map: world)
+[2026-08-11 19:49:22][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 19:49:58][FINE] Scheduled update for region-file: (4, -2) (Map: world)
+[2026-08-11 19:49:58][FINE] Scheduled update for region-file: (4, -1) (Map: world)
+[2026-08-11 19:49:59][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 19:49:59][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:50:11][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:50:15][FINE] Scheduled update for region-file: (4, -2) (Map: world)
+[2026-08-11 19:50:15][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 19:50:24][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:50:24][FINE] Scheduled update for region-file: (4, -1) (Map: world)
+[2026-08-11 19:51:28][FINE] Scheduled update for region-file: (0, -1) (Map: world_nether)
+[2026-08-11 19:51:28][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 19:54:22][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 19:55:10][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 19:56:09][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 19:56:13][FINE] Scheduled update for region-file: (0, -1) (Map: world_nether)
+[2026-08-11 19:56:13][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 19:59:22][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 19:59:31][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 20:00:10][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 20:04:22][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 20:05:10][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 20:07:39][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 20:08:42][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 20:09:22][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 20:10:10][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 20:10:35][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 20:11:17][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 20:12:07][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 20:14:17][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 20:14:19][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 20:14:22][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 20:14:34][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 20:14:42][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 20:15:10][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 20:19:22][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 20:20:10][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 20:24:22][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 20:25:10][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 20:29:22][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 20:30:10][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 20:34:11][FINE] Stopped watching map 'world' for updates.
+[2026-08-11 20:34:11][FINE] Stopped watching map 'world_the_end' for updates.
+[2026-08-11 20:34:11][FINE] Stopped watching map 'world_nether' for updates.
+[2026-08-11 20:34:11][FINE] Started watching map 'world' for updates...
+[2026-08-11 20:34:11][FINE] Started watching map 'world_nether' for updates...
+[2026-08-11 20:34:11][FINE] Started watching map 'world_the_end' for updates...
+[2026-08-11 20:34:22][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 20:35:10][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 20:39:22][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 20:40:10][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 20:44:22][FINE] Scheduled update for region-file: (0, 0) (Map: world_nether)
+[2026-08-11 20:45:10][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 20:47:32][FINE] Failed to load skin from mojang for player: '27807e28-542e-31a5-ad21-c6dbb8f27607' - java.io.IOException: java.lang.IllegalStateException: Not a JSON Object: null
+[2026-08-11 20:47:32][FINE] No player-skin provided for UUID: 27807e28-542e-31a5-ad21-c6dbb8f27607
+[2026-08-11 20:47:34][FINE] Failed to load skin from mojang for player: '9e719473-443e-3d6e-bead-d220ff3de96c' - java.io.IOException: java.lang.IllegalStateException: Not a JSON Object: null
+[2026-08-11 20:47:34][FINE] No player-skin provided for UUID: 9e719473-443e-3d6e-bead-d220ff3de96c
+[2026-08-11 20:47:39][FINE] Scheduled update for region-file: (5, -2) (Map: world)
+[2026-08-11 20:47:40][FINE] Scheduled update for region-file: (5, -1) (Map: world)
+[2026-08-11 20:47:40][FINE] Scheduled update for region-file: (6, -2) (Map: world)
+[2026-08-11 20:47:40][FINE] Scheduled update for region-file: (6, -1) (Map: world)
+[2026-08-11 20:48:01][INFO] Stopping...
+[2026-08-11 20:48:01][FINE] Stopped watching map 'world' for updates.
+[2026-08-11 20:48:01][FINE] Stopped watching map 'world_the_end' for updates.
+[2026-08-11 20:48:01][FINE] Stopped watching map 'world_nether' for updates.
