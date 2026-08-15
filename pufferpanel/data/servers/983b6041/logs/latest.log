@@ -1,459 +1,359 @@
-[16:45:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:45:46] [ServerMain/INFO]: Loaded 1174 recipes
-[16:45:47] [ServerMain/INFO]: Loaded 1271 advancements
-[16:45:47] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[16:45:47] [Server thread/WARN]: ****************************
-[16:45:47] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[16:45:47] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[16:45:47] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[16:45:47] [Server thread/WARN]: ****************************
-[16:45:47] [Server thread/INFO]: Loading properties
-[16:45:47] [Server thread/INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
-[16:45:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:45:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:45:48] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[14:34:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:34:38] [ServerMain/INFO]: Loaded 1174 recipes
+[14:34:38] [ServerMain/INFO]: Loaded 1271 advancements
+[14:34:38] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[14:34:38] [Server thread/WARN]: ****************************
+[14:34:38] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[14:34:38] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[14:34:38] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[14:34:38] [Server thread/WARN]: ****************************
+[14:34:38] [Server thread/INFO]: Loading properties
+[14:34:38] [Server thread/INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[14:34:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:34:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:34:40] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[16:45:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[16:45:49] [Server thread/INFO]: Default game type: SURVIVAL
-[16:45:49] [Server thread/INFO]: Generating keypair
-[16:45:49] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[16:45:49] [Server thread/INFO]: Using epoll channel type
-[16:45:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:45:49] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[16:45:50] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'TopBalanceGUI.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21
-	at org.bukkit.craftbukkit.v1_20_R3.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:389) ~[paper-1.20.4.jar:git-Paper-499]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:119) ~[paper-1.20.4.jar:git-Paper-499]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.4.jar:git-Paper-499]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.4.jar:git-Paper-499]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.20.4.jar:git-Paper-499]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.4.jar:git-Paper-499]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:507) ~[paper-1.20.4.jar:git-Paper-499]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[paper-1.20.4.jar:git-Paper-499]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-499]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-499]
-	at java.lang.Thread.run(Thread.java:1474) ~[?:?]
-[16:45:50] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
-[16:45:50] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
-[16:45:51] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:45:51] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[16:45:52] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
-[16:45:52] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
-[16:45:52] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.0
-[16:45:52] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20260625-0111
-[16:45:52] [Server thread/INFO]: [FarmProtection] Loading server plugin FarmProtection v1.0.0
-[16:45:52] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v6.2
-[16:45:52] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
-[16:45:52] [Server thread/INFO]: [PatPatPlugin] Loading server plugin PatPatPlugin v1.2.5+0268419
-[16:45:52] [Server thread/INFO]: [TreeAssist] Loading server plugin TreeAssist v7.3.69
-[16:45:52] [Server thread/INFO]: [TreeAssist] Loading main config file: /config.yml
-[16:45:52] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Ground Blocks entry invalid: minecraft:pale_moss_block
-[16:45:52] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:resin_clump
-[16:45:52] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:pale_hanging_moss
-[16:45:52] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:pale_moss_carpet
-[16:45:52] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:pale_moss_block
-[16:45:52] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:bush
-[16:45:52] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:cactus_flower
-[16:45:52] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:firefly_bush
-[16:45:52] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:leaf_litter
-[16:45:52] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:short_dry_grass
-[16:45:52] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:tall_dry_grass
-[16:45:52] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:wildflowers
-[16:45:53] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[16:45:58] [Server thread/WARN]: [TreeAssist] No valid material minecraft:pale_oak_leaves in node Blocks.Custom Drops.Items.minecraft:pale_oak_leaves
-[16:45:58] [Server thread/WARN]: [TreeAssist] No valid node: Blocks.Custom Drops.Items.minecraft:pale_oak_leaves
-[16:45:58] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig pale_oak.yml - Node Blocks.Materials entry invalid: minecraft:pale_oak_leaves
-[16:45:58] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig pale_oak.yml - Node Blocks.Materials entry invalid: minecraft:pale_hanging_moss
-[16:45:58] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig pale_oak.yml - Node Ground Blocks entry invalid: minecraft:pale_moss_block
-[16:45:58] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig pale_oak.yml - Node Trunk.Materials entry invalid: minecraft:creaking_heart
-[16:45:58] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig pale_oak.yml - Node Trunk.Materials entry invalid: minecraft:pale_oak_log
-[16:45:58] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig pale_oak.yml - Node Trunk.Materials entry invalid: minecraft:stripped_pale_oak_log
-[16:45:58] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.Material.equals(Object)" because "replantMat" is null
-[16:45:58] [Server thread/WARN]: 	at TreeAssist.jar//net.slipcor.treeassist.yml.TreeConfig.load(TreeConfig.java:307)
-[16:45:58] [Server thread/WARN]: 	at TreeAssist.jar//net.slipcor.treeassist.discovery.TreeStructure.reloadTreeDefinitions(TreeStructure.java:894)
-[16:45:58] [Server thread/WARN]: 	at TreeAssist.jar//net.slipcor.treeassist.TreeAssist.reloadLists(TreeAssist.java:444)
-[16:45:58] [Server thread/WARN]: 	at TreeAssist.jar//net.slipcor.treeassist.TreeAssist.onLoad(TreeAssist.java:413)
-[16:45:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
-[16:45:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
-[16:45:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
-[16:45:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36)
-[16:45:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:507)
-[16:45:58] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:274)
-[16:45:58] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
-[16:45:58] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
-[16:45:58] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
-[16:45:59] [Server thread/INFO]: [OnePlayerSleep] Loading server plugin OnePlayerSleep v4.0.1
-[16:45:59] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.5.1
-[16:45:59] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v7.2.0
-[16:45:59] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.1.0
-[16:45:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:45:59] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
-[16:46:00] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
-[16:46:00] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[16:46:00] [Server thread/INFO]: [Vault] Enabling Vault v1.7.0
-[16:46:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:46:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[16:46:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
-[16:46:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
-[16:46:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
-[16:46:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[16:46:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:46:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
-[16:46:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
-[16:46:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[16:46:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:46:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[16:46:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
-[16:46:01] [Server thread/INFO]: ==============================
-[16:46:01] [Server thread/INFO]: Vault2.0
-[16:46:01] [Server thread/INFO]: Version: 1.7.0
-[16:46:01] [Server thread/INFO]: Status: ENABLED
-[16:46:01] [Server thread/INFO]: ==============================
-[16:46:01] [Server thread/INFO]: [Vault] Internal economy registered without depending on Vault.jar
-[16:46:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:46:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:46:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:46:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:46:01] [Server thread/INFO]: Preparing level "world"
-[16:46:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:46:02] [Server thread/INFO]: Time elapsed: 438 ms
-[16:46:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:46:02] [Server thread/INFO]: Time elapsed: 220 ms
-[16:46:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:46:02] [Server thread/INFO]: Time elapsed: 112 ms
-[16:46:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
-[16:46:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
-[16:46:02] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
-[16:46:02] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20260625-0111
-[16:46:02] [Server thread/INFO]: [JustTPA] bStats enabled
-[16:46:02] [Server thread/INFO]: [FarmProtection] Enabling FarmProtection v1.0.0
-[16:46:02] [Server thread/INFO]: [FarmProtection] Enabled FarmProtection
-[16:46:02] [Server thread/INFO]: [SetHome] Enabling SetHome v6.2
-[16:46:03] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
-[16:46:05] [Thread-10/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[16:46:05] [Thread-10/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[16:46:05] [Server thread/INFO]: [PatPatPlugin] Enabling PatPatPlugin v1.2.5+0268419
-[16:46:06] [Server thread/INFO]: [patpat-plugin] Plugin started
-[16:46:06] [Server thread/INFO]: [TreeAssist] Enabling TreeAssist v7.3.69
-[16:46:06] [Server thread/INFO]: [TreeAssist] sending full Metrics! You can deactivate this in the config.yml
-[16:46:06] [Server thread/INFO]: [TreeAssist] debugging: off
-[16:46:06] [Thread-10/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
-[16:46:06] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
-[16:46:06] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v4.0.1
-[16:46:06] [Thread-11/INFO]: [TreeAssist] Checking for updates...
-[16:46:06] [Server thread/INFO]: 
-[16:46:06] [Server thread/INFO]: ╔══════════════════════════════════════════════════╗
-[16:46:06] [Server thread/INFO]: ║                                                  ║
-[16:46:06] [Server thread/INFO]: ║    ⭐ OnePlayerSleep v4.0.1 ⭐                ║
-[16:46:06] [Server thread/INFO]: ║                                                  ║
-[16:46:06] [Server thread/INFO]: ║    Author: heyWaffie                           ║
-[16:46:06] [Server thread/INFO]: ║    Server: git-Paper-499 (MC: 1              ║
-[16:46:06] [Server thread/INFO]: ║                                                  ║
-[16:46:06] [Server thread/INFO]: ╠══════════════════════════════════════════════════╣
-[16:46:06] [Server thread/INFO]: ║                                                  ║
-[16:46:06] [Server thread/INFO]: ║    ✓ Event Listeners → LOADED              ║
-[16:46:06] [Server thread/INFO]: ║    ✓ Commands → REGISTERED                  ║
-[16:46:06] [Server thread/INFO]: ║    ✓ Configuration → INITIALIZED            ║
-[16:46:06] [Server thread/INFO]: ║                                                  ║
-[16:46:06] [Server thread/INFO]: ╠══════════════════════════════════════════════════╣
-[16:46:06] [Server thread/INFO]: ║                                                  ║
-[16:46:06] [Server thread/INFO]: ║    🌙 One Player Sleep → Enabled!          ║
-[16:46:06] [Server thread/INFO]: ║    💤 Skip nights with just ONE player!      ║
-[16:46:06] [Server thread/INFO]: ║                                                  ║
-[16:46:06] [Server thread/INFO]: ╚══════════════════════════════════════════════════╝
-[16:46:06] [Server thread/INFO]: 
-[16:46:06] [Server thread/INFO]: [GSit] Enabling GSit v3.5.1
-[16:46:07] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v7.2.0
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
-[16:46:07] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using VaultEconomy as economy provider
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.20.4...
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[16:46:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[16:46:08] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: wills-bookmark.tun.ply.gg
-[16:46:09] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 2676ms to complete
-[16:46:09] [Server thread/INFO]: [TAB] Enabling TAB v6.1.0
-[16:46:09] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.v1_20_R3.NMSImplementationProvider
-[16:46:10] [Server thread/INFO]: [TAB] Enabled in 690ms
-[16:46:10] [Server thread/WARN]: Could not register alias top because it contains commands that do not exist: baltop
-[16:46:11] [Server thread/INFO]: Running delayed init tasks
-[16:46:11] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[16:46:11] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0xb7d8dad0, L:/[0:0:0:0:0:0:0:0%0]:25565]
-[16:46:11] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
-[16:46:11] [Server thread/INFO]: Done (23.676s)! For help, type "help"
-[16:46:11] [Server thread/INFO]: Timings Reset
-[16:46:11] [Craft Scheduler Thread - 0 - JustTPA/INFO]: [JustTPA] You are using the latest version for your server.
-[16:46:24] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:25565, peerAddr=103.138.120.41:36507, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 103, -109, -71, -35, -26, 99, -35, 103, -118, 120, 41, -114, -101, 75, 33, 31, -127, -85, 8, 106, 127, 70, 96, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, 100, 97, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 0, 33, 32, 0, -3, 5, 25, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 99, -35, 2, 49, 127, 82, -59, -54, 21, -104, 76, -24, -114, -6, 19, 108, 115, 46, 88], tunnelServerId=0, tunnelId=4424487, dataCenterId=18, portOffset=0}
-[16:46:24] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[16:46:24] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[16:46:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[16:46:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[16:46:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[16:46:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
-[16:46:24] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[16:46:24] [Netty Epoll Server IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.138.120.41:36507
-[16:46:24] [Netty Epoll Server IO #1/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
-[16:46:24] [User Authenticator #0/INFO]: UUID of player ROFIOUS is 9e719473-443e-3d6e-bead-d220ff3de96c
-[16:46:25] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:46:25] [Server thread/INFO]: ROFIOUS joined the game
-[16:46:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Player ROFIOUS's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[16:46:25] [Server thread/INFO]: ROFIOUS[/127.0.0.1:60020] logged in with entity id 74 at ([world]2840.5, 64.0, -358.5)
-[16:46:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2643ms or 52 ticks behind
-[16:46:37] [Server thread/INFO]: ROFIOUS issued server command: /balance top
-[16:46:46] [Server thread/INFO]: ROFIOUS issued server command: /balancetop
-[16:46:49] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:33778, peerAddr=103.216.57.137:59719, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 103, -109, -71, -35, -26, -125, -14, 103, -40, 57, -119, -23, 71, 2, -43, 100, -75, -85, 8, 106, 127, 70, 121, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, 53, -107, -85, 8, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 11, 0, 33, 32, 0, -3, 5, 25, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 99, -35, 1, 42, 35, -37, 109, 5, -53, -93, 85, -25, 125, -57, -19, 79, -95, 81, 116], tunnelServerId=0, tunnelId=4424487, dataCenterId=2, portOffset=0}
-[16:46:49] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[16:46:49] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[16:46:49] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:33778, peerAddr=103.216.57.137:59720, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 103, -109, -71, -35, -26, -125, -14, 103, -40, 57, -119, -23, 72, 21, 49, 8, -9, -85, 8, 106, 127, 70, 121, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, 18, -41, -85, 8, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 5, 0, 33, 32, 0, -3, 5, 25, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 99, -35, 1, -24, 84, -63, -127, -26, -24, 126, 63, 48, 125, 65, -21, 22, -99, -18, 58], tunnelServerId=0, tunnelId=4424487, dataCenterId=2, portOffset=0}
-[16:46:49] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[16:46:49] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[16:46:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[16:46:49] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[16:46:49] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[16:46:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[16:46:49] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[16:46:49] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
-[16:46:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[16:46:49] [Netty Epoll Server IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.216.57.137:59720
-[16:46:49] [Netty Epoll Server IO #2/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
-[16:46:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[16:46:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
-[16:46:49] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[16:46:49] [Netty Epoll Server IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.216.57.137:59719
-[16:46:49] [Netty Epoll Server IO #3/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
-[16:46:50] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:33778, peerAddr=103.216.57.137:59722, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 104, -109, -71, -35, -26, -125, -14, 103, -40, 57, -119, -23, 74, -88, 56, -46, -64, -85, 8, 106, 127, 70, 122, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, -109, -97, -85, 8, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 17, 0, 34, 33, 0, -3, 5, 26, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 46, -125, -14, 2, -83, 113, 70, -3, 37, 40, -43, 96, -125, -41, 6, -69, -73, 97, -91, -28], tunnelServerId=0, tunnelId=4424487, dataCenterId=2, portOffset=0}
-[16:46:50] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[16:46:50] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[16:46:51] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[16:46:51] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[16:46:51] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[16:46:51] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
-[16:46:51] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[16:46:51] [Netty Epoll Server IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.216.57.137:59722
-[16:46:51] [Netty Epoll Server IO #0/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
-[16:46:51] [User Authenticator #0/INFO]: UUID of player SRT_SHADOW is 27807e28-542e-31a5-ad21-c6dbb8f27607
-[16:46:52] [TAB Processing Thread/INFO]: [TAB] [WARN] Player SRT_SHADOW's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[16:46:52] [Server thread/INFO]: SRT_SHADOW joined the game
-[16:46:52] [Server thread/INFO]: SRT_SHADOW[/127.0.0.1:48140] logged in with entity id 390 at ([world]2806.012310158935, 62.87208890136313, -342.69999998807907)
-[16:47:34] [Server thread/INFO]: ROFIOUS issued server command: /sethome 1
-[16:47:39] [Server thread/INFO]: ROFIOUS issued server command: /home 1
-[16:47:55] [Server thread/INFO]: ROFIOUS issued server command: /deop
-[16:48:01] [Server thread/INFO]: ROFIOUS issued server command: /deop ROFIOUS
-[16:48:01] [Server thread/INFO]: [ROFIOUS: Made ROFIOUS no longer a server operator]
-[16:49:03] [Server thread/INFO]: SRT_SHADOW issued server command: /sellgui
-[16:49:11] [Server thread/INFO]: Shop >> SRT_SHADOW sold 9x Apple(Food.page1.items.1), 16x Cherry Leaves(Decoration.page2.items.57), 1x Arrow(Mobs.page1.items.1), 143x Cherry Sapling(Decoration.page2.items.74), 6x Rotten Flesh(Mobs.page1.items.15) for $149.82 with the sell gui.
-[16:49:19] [Server thread/INFO]: SRT_SHADOW issued server command: /sellgui
-[16:49:50] [Server thread/INFO]: ROFIOUS issued server command: /sellgui
-[16:49:56] [Server thread/INFO]: Shop >> ROFIOUS sold 2x Mossy Cobblestone(Blocks.page1.items.54), 34x Oak Planks(Blocks.page5.items.217), 2x Wheat Seeds(Farming.page1.items.29), 49x Oak Stairs(Blocks.page5.items.219) for $35.62 with the sell gui.
-[16:50:09] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[16:53:59] [Server thread/INFO]: ROFIOUS issued server command: /sellgui
-[16:54:11] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[16:54:26] [Server thread/INFO]: Shop >> ROFIOUS sold 17x Mossy Cobblestone(Blocks.page1.items.54), 128x Oak Planks(Blocks.page5.items.217), 3x Oak Slab(Blocks.page5.items.218), 3x Wheat Seeds(Farming.page1.items.29), 2x Bricks(Blocks.page1.items.39), 43x Oak Log(Blocks.page5.items.216), 230x Oak Stairs(Blocks.page5.items.219), 8x Cobblestone Stairs(Blocks.page1.items.53) for $245.59 with the sell gui.
-[16:54:51] [Server thread/INFO]: SRT_SHADOW issued server command: /sellgui
-[16:56:04] [Server thread/INFO]: SRT_SHADOW issued server command: /sellgui
-[16:56:20] [Server thread/INFO]: Shop >> SRT_SHADOW sold 17x Mossy Cobblestone(Blocks.page1.items.54), 8x Oak Planks(Blocks.page5.items.217), 2x Oak Sapling(Decoration.page2.items.79), 41x Spruce Sapling(Decoration.page2.items.80), 2x Bricks(Blocks.page1.items.39), 28x Oak Log(Blocks.page5.items.216), 69x Oak Stairs(Blocks.page5.items.219), 11x Cobblestone Stairs(Blocks.page1.items.53) for $159.98 with the sell gui.
-[16:57:53] [Server thread/INFO]: ROFIOUS issued server command: /sellgui
-[16:58:06] [Server thread/INFO]: Shop >> ROFIOUS sold 13x Mossy Cobblestone(Blocks.page1.items.54), 242x Oak Planks(Blocks.page5.items.217), 4x Oak Sapling(Decoration.page2.items.79), 1x Wheat Seeds(Farming.page1.items.29), 59x Oak Log(Blocks.page5.items.216), 128x Oak Stairs(Blocks.page5.items.219), 7x Cobblestone Stairs(Blocks.page1.items.53) for $193.10 with the sell gui.
-[16:58:12] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[16:58:36] [Server thread/INFO]: SRT_SHADOW issued server command: /sellgui
-[16:59:00] [Server thread/INFO]: Shop >> SRT_SHADOW sold 3x Oak Slab(Blocks.page5.items.218), 4x Glass Pane(Blocks.page3.items.116), 20x Oak Log(Blocks.page5.items.216), 77x Oak Stairs(Blocks.page5.items.219), 1x Cobblestone Stairs(Blocks.page1.items.53), 12x Spruce Planks(Blocks.page5.items.222) for $55.39 with the sell gui.
-[16:59:24] [Server thread/INFO]: ROFIOUS issued server command: /shop
-[16:59:31] [Server thread/INFO]: Shop >> ROFIOUS bought 16 x Ender Pearl(Mobs.page1.items.5) for $112.00 with the buy screen.
-[17:02:13] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:04:10] [Server thread/INFO]: ROFIOUS issued server command: /sellgui
-[17:04:15] [Server thread/INFO]: Shop >> ROFIOUS sold 2880x Carrot(Farming.page1.items.8) for $3,600.00 with the sell gui.
-[17:04:23] [Server thread/INFO]: ROFIOUS issued server command: /sellgui
-[17:04:28] [Server thread/INFO]: Shop >> ROFIOUS sold 128x Potato(Farming.page1.items.21), 384x Carrot(Farming.page1.items.8) for $640.00 with the sell gui.
-[17:04:31] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:33778, peerAddr=103.68.6.254:55836, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 103, -109, -71, -35, -26, -125, -14, 103, 68, 6, -2, -38, 28, 117, 36, -19, 123, -85, 8, 106, 127, 74, -97, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, -22, 91, -85, 8, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 2, 0, 33, 32, 0, -121, 6, 25, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 99, -35, 1, 120, 71, -115, 68, -1, -40, 85, 85, -12, -79, 62, -63, 30, -103, -72, 36], tunnelServerId=0, tunnelId=4424487, dataCenterId=2, portOffset=0}
-[17:04:31] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[17:04:31] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[17:04:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[17:04:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[17:04:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[17:04:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
-[17:04:31] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[17:04:31] [Netty Epoll Server IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.68.6.254:55836
-[17:04:31] [Netty Epoll Server IO #1/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
-[17:04:48] [Server thread/INFO]: ROFIOUS issued server command: /sellgui
-[17:04:52] [Server thread/INFO]: Shop >> ROFIOUS sold 2880x Potato(Farming.page1.items.21) for $3,600.00 with the sell gui.
-[17:04:55] [Server thread/INFO]: ROFIOUS issued server command: /sellgui
-[17:04:58] [Server thread/INFO]: Shop >> ROFIOUS sold 403x Potato(Farming.page1.items.21), 175x Carrot(Farming.page1.items.8) for $722.50 with the sell gui.
-[17:05:16] [Server thread/INFO]: ROFIOUS issued server command: /sellgui
-[17:05:23] [Server thread/INFO]: Shop >> ROFIOUS sold 512x Potato(Farming.page1.items.21), 2368x Carrot(Farming.page1.items.8) for $3,600.00 with the sell gui.
-[17:05:25] [Server thread/INFO]: ROFIOUS issued server command: /sellgui
-[17:05:29] [Server thread/INFO]: Shop >> ROFIOUS sold 430x Potato(Farming.page1.items.21), 130x Carrot(Farming.page1.items.8) for $700.00 with the sell gui.
-[17:06:08] [Server thread/INFO]: ROFIOUS issued server command: /shop
-[17:06:14] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:06:22] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:33778, peerAddr=103.68.6.254:62418, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 103, -109, -71, -35, -26, -125, -14, 103, 68, 6, -2, -13, -46, 86, -64, 37, 9, -85, 8, 106, 127, 75, 14, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, 88, -23, -85, 8, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 8, 0, 33, 32, 0, -121, 6, 25, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 99, -35, 1, 31, 70, -71, -86, -54, 100, 102, -20, -78, -67, -28, 69, 79, -33, 88, 84], tunnelServerId=0, tunnelId=4424487, dataCenterId=2, portOffset=0}
-[17:06:22] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[17:06:22] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[17:06:22] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[17:06:22] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[17:06:22] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[17:06:22] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
-[17:06:22] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[17:06:22] [Netty Epoll Server IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.68.6.254:62418
-[17:06:22] [Netty Epoll Server IO #2/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
-[17:06:28] [Server thread/INFO]: Shop >> ROFIOUS bought 24 x Leather(Farming.page1.items.15) for $806.40 with the buy screen.
-[17:07:16] [Server thread/INFO]: Made ROFIOUS a server operator
-[17:07:22] [Server thread/INFO]: ROFIOUS issued server command: /shop
-[17:07:34] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.26) for $463.05 with the buy screen.
-[17:07:34] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.26) for $463.05 with the buy screen.
-[17:07:34] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.26) for $463.05 with the buy screen.
-[17:07:35] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.26) for $463.05 with the buy screen.
-[17:07:41] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160.00 with the buy screen.
-[17:07:42] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160.00 with the buy screen.
-[17:07:42] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160.00 with the buy screen.
-[17:07:43] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160.00 with the buy screen.
-[17:07:52] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.38) for $441.00 with the buy screen.
-[17:07:52] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.38) for $441.00 with the buy screen.
-[17:07:53] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.38) for $441.00 with the buy screen.
-[17:07:53] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.38) for $441.00 with the buy screen.
-[17:08:02] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.35) for $705.60 with the buy screen.
-[17:08:14] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.8) for $926.10 with the buy screen.
-[17:08:18] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.1) for $160.00 with the buy screen.
-[17:08:42] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Enchanted Book(Enchanting.page1.items.29) for $705.60 with the buy screen.
-[17:08:45] [Server thread/INFO]: ROFIOUS issued server command: /gamemode creative
-[17:08:45] [Server thread/INFO]: [ROFIOUS: Set own game mode to Creative Mode]
-[17:10:08] [Server thread/INFO]: SRT_SHADOW issued server command: /sellgui
-[17:10:14] [Server thread/INFO]: Shop >> SRT_SHADOW sold 4x Poppy(Dyes.page1.items.28), 3x Oxeye Daisy(Dyes.page1.items.23), 66x Dirt(Blocks.page3.items.105), 88x Wheat Seeds(Farming.page1.items.29), 5x Cooked Mutton(Food.page1.items.13), 6x Cornflower(Dyes.page1.items.19), 9x Pumpkin(Farming.page1.items.22), 20x Azure Bluet(Dyes.page1.items.17), 3x White Wool(Blocks.page6.items.247) for $164.95 with the sell gui.
-[17:10:17] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:10:23] [Server thread/INFO]: ROFIOUS issued server command: /gamemode survival
-[17:10:23] [Server thread/INFO]: [ROFIOUS: Set own game mode to Survival Mode]
-[17:11:13] [Server thread/INFO]: ROFIOUS issued server command: /shop
-[17:11:43] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Silence Armor Trim Smithing Template(Decoration.page4.items.137) for $193.30 with the buy screen.
-[17:11:44] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Silence Armor Trim Smithing Template(Decoration.page4.items.137) for $193.30 with the buy screen.
-[17:11:45] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Silence Armor Trim Smithing Template(Decoration.page4.items.137) for $193.30 with the buy screen.
-[17:11:45] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Silence Armor Trim Smithing Template(Decoration.page4.items.137) for $193.30 with the buy screen.
-[17:12:55] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[17:12:55] [Server thread/INFO]: ROFIOUS lost connection: Disconnected
-[17:12:55] [Server thread/INFO]: ROFIOUS left the game
-[17:12:57] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:25565, peerAddr=103.138.120.41:59785, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 103, -109, -71, -35, -26, 99, -35, 103, -118, 120, 41, -23, -119, -91, 90, 105, -114, -85, 8, 106, 127, 76, -103, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, 15, 110, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 33, 32, 0, -3, 5, 25, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 99, -35, 1, 116, -91, 114, -55, 74, 83, 5, -55, 88, 75, -93, 93, 3, 16, 106, 16], tunnelServerId=0, tunnelId=4424487, dataCenterId=18, portOffset=0}
-[17:12:57] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[17:12:57] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[17:12:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[17:12:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[17:12:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[17:12:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
-[17:12:57] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[17:12:57] [Netty Epoll Server IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.138.120.41:59785
-[17:12:57] [Netty Epoll Server IO #3/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
-[17:14:19] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:14:52] [Server thread/INFO]: SRT_SHADOW issued server command: /sellgui
-[17:14:55] [Server thread/INFO]: Shop >> SRT_SHADOW sold 14x Wheat Seeds(Farming.page1.items.29) for $10.50 with the sell gui.
-[17:15:04] [Server thread/INFO]: SRT_SHADOW issued server command: /sellgui
-[17:15:05] [Server thread/INFO]: Shop >> SRT_SHADOW sold 3x Wheat Seeds(Farming.page1.items.29) for $2.25 with the sell gui.
-[17:18:20] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:22:21] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:26:22] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:30:23] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:34:24] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:38:25] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:42:26] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:45:29] [Server thread/INFO]: SRT_SHADOW issued server command: /sellgui
-[17:45:41] [Server thread/INFO]: Shop >> SRT_SHADOW sold 6x Apple(Food.page1.items.1), 6x Bone(Mobs.page1.items.4), 1x Gunpowder(Mobs.page1.items.9), 11x Wheat Seeds(Farming.page1.items.29), 283x Bamboo(Farming.page1.items.1), 2x String(Mobs.page1.items.18), 4x Cooked Mutton(Food.page1.items.13), 56x Pumpkin(Farming.page1.items.22), 2x Oak Leaves(Decoration.page2.items.61), 2x White Wool(Blocks.page6.items.247) for $140.64 with the sell gui.
-[17:46:28] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:50:29] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:54:30] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:58:31] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[18:00:02] [Server thread/INFO]: SRT_SHADOW issued server command: /sellgui
-[18:00:19] [Server thread/INFO]: Shop >> SRT_SHADOW sold 43x Cooked Beef(Food.page1.items.11), 23x Bone(Mobs.page1.items.4), 10x Azalea(Decoration.page2.items.72), 8x Wheat Seeds(Farming.page1.items.29), 6x Flowering Azalea(Decoration.page2.items.76), 32x Spruce Sapling(Decoration.page2.items.80), 51x Cherry Sapling(Decoration.page2.items.74), 1x Black Wool(Blocks.page5.items.233), 33x Pumpkin(Farming.page1.items.22), 4x Mutton(Food.page1.items.18), 23x White Wool(Blocks.page6.items.247), 1x Grass Block(Blocks.page3.items.106), 1x Poppy(Dyes.page1.items.28), 2x Gray Wool(Blocks.page5.items.237), 9x Apple(Food.page1.items.1), 41x Leather(Farming.page1.items.15), 80x Oak Sapling(Decoration.page2.items.79), 24x Gunpowder(Mobs.page1.items.9), 19x Arrow(Mobs.page1.items.1), 88x Cooked Mutton(Food.page1.items.13), 5x Iron Ingot(Ores.page1.items.16), 123x Oak Log(Blocks.page5.items.216), 3x Light Gray Wool(Blocks.page5.items.240), 18x Rotten Flesh(Mobs.page1.items.15), 1x Oak Leaves(Decoration.page2.items.61) for $1,237.63 with the sell gui.
-[18:00:41] [Server thread/INFO]: SRT_SHADOW issued server command: /shop
-[18:00:53] [Server thread/INFO]: Shop >> SRT_SHADOW bought 16 x Mangrove Propagule(Decoration.page2.items.78) for $48.00 with the buy screen.
-[18:01:04] [Server thread/INFO]: Shop >> SRT_SHADOW bought 16 x Dark Oak Sapling(Decoration.page2.items.75) for $48.00 with the buy screen.
-[18:01:10] [Server thread/INFO]: Shop >> SRT_SHADOW bought 16 x Jungle Sapling(Decoration.page2.items.77) for $48.00 with the buy screen.
-[18:01:16] [Server thread/INFO]: Shop >> SRT_SHADOW bought 16 x Acacia Sapling(Decoration.page2.items.71) for $48.00 with the buy screen.
-[18:02:33] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[18:02:42] [Server thread/INFO]: SRT_SHADOW issued server command: /shop
-[18:05:32] [Server thread/INFO]: SRT_SHADOW issued server command: /shop
-[18:05:40] [Server thread/INFO]: Shop >> SRT_SHADOW bought 16 x Jungle Sapling(Decoration.page2.items.77) for $48.00 with the buy screen.
-[18:06:34] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[18:07:41] [Server thread/INFO]: SRT_SHADOW issued server command: /sellgui
-[18:07:43] [Server thread/INFO]: Shop >> SRT_SHADOW sold 4x Mangrove Propagule(Decoration.page2.items.78), 6x Dirt(Blocks.page3.items.105), 6x Acacia Sapling(Decoration.page2.items.71), 7x Spruce Sapling(Decoration.page2.items.80), 1x Cherry Sapling(Decoration.page2.items.74) for $18.00 with the sell gui.
-[18:10:27] [Server thread/INFO]: SRT_SHADOW issued server command: /balance
-[18:10:36] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[18:12:26] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[18:12:26] [Server thread/INFO]: SRT_SHADOW lost connection: Disconnected
-[18:12:26] [Server thread/INFO]: SRT_SHADOW left the game
-[18:12:27] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:33778, peerAddr=103.216.57.137:63871, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 103, -109, -71, -35, -26, -125, -14, 103, -40, 57, -119, -7, 127, -116, 20, -101, -84, -85, 8, 106, 127, 90, -117, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, 68, -116, -85, 8, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 3, 0, 33, 32, 0, -3, 5, 25, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 99, -35, 1, 97, -94, 116, -66, -24, 118, 1, -12, 36, -84, 63, -106, 72, -54, -9, 98], tunnelServerId=0, tunnelId=4424487, dataCenterId=2, portOffset=0}
-[18:12:27] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[18:12:27] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[18:12:27] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[18:12:27] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[18:12:27] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[18:12:27] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
-[18:12:27] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[18:12:27] [Netty Epoll Server IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.216.57.137:63871
-[18:12:27] [Netty Epoll Server IO #0/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
-[18:12:36] [Server thread/INFO]: Stopping the server
-[18:12:36] [Server thread/INFO]: Stopping server
-[18:12:36] [Server thread/INFO]: [TAB] Disabling TAB v6.1.0
-[18:12:36] [Server thread/INFO]: [TAB] Disabled in 4ms
-[18:12:36] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v7.2.0
-[18:12:36] [Server thread/INFO]: [GSit] Disabling GSit v3.5.1
-[18:12:36] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[18:12:36] [Server thread/INFO]: [OnePlayerSleep] Disabling OnePlayerSleep v4.0.1
-[18:12:36] [Server thread/INFO]: 
-[18:12:36] [Server thread/INFO]: ╔══════════════════════════════════════════════════╗
-[18:12:36] [Server thread/INFO]: ║                                                  ║
-[18:12:36] [Server thread/INFO]: ║    ⭐ OnePlayerSleep v4.0.1 - Shutting Down ⭐  ║
-[18:12:36] [Server thread/INFO]: ║                                                  ║
-[18:12:36] [Server thread/INFO]: ╠══════════════════════════════════════════════════╣
-[18:12:36] [Server thread/INFO]: ║                                                  ║
-[18:12:36] [Server thread/INFO]: ║    🌟 Thanks for using OnePlayerSleep!         ║
-[18:12:36] [Server thread/INFO]: ║    💙 Your players will miss the quick nights!  ║
-[18:12:36] [Server thread/INFO]: ║                                                  ║
-[18:12:36] [Server thread/INFO]: ╚══════════════════════════════════════════════════╝
-[18:12:36] [Server thread/INFO]: 
-[18:12:36] [Server thread/INFO]: [TreeAssist] Disabling TreeAssist v7.3.69
-[18:12:36] [Server thread/INFO]: [PatPatPlugin] Disabling PatPatPlugin v1.2.5+0268419
-[18:12:36] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.2.0
-[18:12:36] [Server thread/INFO]: [SetHome] Disabling SetHome v6.2
-[18:12:36] [Server thread/INFO]: [FarmProtection] Disabling FarmProtection v1.0.0
-[18:12:36] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20260625-0111
-[18:12:36] [Server thread/INFO]: [Vault] Disabling Vault v1.7.0
-[18:12:36] [Server thread/INFO]: ==============================
-[18:12:36] [Server thread/INFO]: Vault2.0
-[18:12:36] [Server thread/INFO]: Version: 1.7.0
-[18:12:36] [Server thread/INFO]: Status: DISABLED
-[18:12:36] [Server thread/INFO]: ==============================
-[18:12:36] [Server thread/INFO]: [Vault] Vault (internal economy) disabled.
-[18:12:36] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
-[18:12:36] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.5
-[18:12:36] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.11.0
-[18:12:36] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.11.0
-[18:12:36] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[18:12:36] [Server thread/INFO]: Saving players
-[18:12:36] [Server thread/INFO]: Saving worlds
-[18:12:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:12:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:12:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:12:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:12:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 19 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[18:12:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:12:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:12:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:12:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:12:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:12:36] [Server thread/INFO]: [ChunkHolderManager] Saved 6 block chunks, 35 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
-[18:12:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:12:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:12:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:12:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:12:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:12:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[18:12:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:12:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:12:37] [Server thread/INFO]: Flushing Chunk IO
-[18:12:37] [Server thread/INFO]: Closing Thread Pool
-[18:12:37] [Server thread/INFO]: Closing Server
+[14:34:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[14:34:41] [Server thread/INFO]: Default game type: SURVIVAL
+[14:34:41] [Server thread/INFO]: Generating keypair
+[14:34:41] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[14:34:41] [Server thread/INFO]: Using epoll channel type
+[14:34:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:34:41] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[14:34:42] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[14:34:42] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[14:34:45] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[14:34:45] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[14:34:46] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
+[14:34:47] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[14:34:47] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
+[14:34:47] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.0
+[14:34:47] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20260625-0111
+[14:34:47] [Server thread/INFO]: [FarmProtection] Loading server plugin FarmProtection v1.0.0
+[14:34:47] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v6.2
+[14:34:47] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+[14:34:47] [Server thread/INFO]: [PatPatPlugin] Loading server plugin PatPatPlugin v1.2.5+0268419
+[14:34:47] [Server thread/INFO]: [TreeAssist] Loading server plugin TreeAssist v7.3.69
+[14:34:47] [Server thread/INFO]: [TreeAssist] Loading main config file: /config.yml
+[14:34:47] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Ground Blocks entry invalid: minecraft:pale_moss_block
+[14:34:47] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:resin_clump
+[14:34:47] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:pale_hanging_moss
+[14:34:47] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:pale_moss_carpet
+[14:34:47] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:pale_moss_block
+[14:34:47] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:bush
+[14:34:47] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:cactus_flower
+[14:34:47] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:firefly_bush
+[14:34:47] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:leaf_litter
+[14:34:47] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:short_dry_grass
+[14:34:47] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:tall_dry_grass
+[14:34:47] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:wildflowers
+[14:34:47] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[14:34:53] [Server thread/WARN]: [TreeAssist] No valid material minecraft:pale_oak_leaves in node Blocks.Custom Drops.Items.minecraft:pale_oak_leaves
+[14:34:53] [Server thread/WARN]: [TreeAssist] No valid node: Blocks.Custom Drops.Items.minecraft:pale_oak_leaves
+[14:34:53] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig pale_oak.yml - Node Blocks.Materials entry invalid: minecraft:pale_oak_leaves
+[14:34:53] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig pale_oak.yml - Node Blocks.Materials entry invalid: minecraft:pale_hanging_moss
+[14:34:53] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig pale_oak.yml - Node Ground Blocks entry invalid: minecraft:pale_moss_block
+[14:34:53] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig pale_oak.yml - Node Trunk.Materials entry invalid: minecraft:creaking_heart
+[14:34:53] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig pale_oak.yml - Node Trunk.Materials entry invalid: minecraft:pale_oak_log
+[14:34:53] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig pale_oak.yml - Node Trunk.Materials entry invalid: minecraft:stripped_pale_oak_log
+[14:34:53] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.Material.equals(Object)" because "replantMat" is null
+[14:34:53] [Server thread/WARN]: 	at TreeAssist.jar//net.slipcor.treeassist.yml.TreeConfig.load(TreeConfig.java:307)
+[14:34:53] [Server thread/WARN]: 	at TreeAssist.jar//net.slipcor.treeassist.discovery.TreeStructure.reloadTreeDefinitions(TreeStructure.java:894)
+[14:34:53] [Server thread/WARN]: 	at TreeAssist.jar//net.slipcor.treeassist.TreeAssist.reloadLists(TreeAssist.java:444)
+[14:34:53] [Server thread/WARN]: 	at TreeAssist.jar//net.slipcor.treeassist.TreeAssist.onLoad(TreeAssist.java:413)
+[14:34:53] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
+[14:34:53] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
+[14:34:53] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
+[14:34:53] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36)
+[14:34:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:507)
+[14:34:53] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:274)
+[14:34:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
+[14:34:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[14:34:53] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[14:34:53] [Server thread/INFO]: [OnePlayerSleep] Loading server plugin OnePlayerSleep v4.0.1
+[14:34:53] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.5.1
+[14:34:53] [Server thread/INFO]: [RexonBaltop] Loading server plugin RexonBaltop v1.0.0
+[14:34:53] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v7.2.0
+[14:34:53] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.1.0
+[14:34:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:34:53] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
+[14:34:54] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
+[14:34:55] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[14:34:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.12.5]
+[14:34:55] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[14:34:55] [Server thread/INFO]: [Vault] Enabling Vault v1.7.0
+[14:34:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:34:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[14:34:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[14:34:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[14:34:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[14:34:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[14:34:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:34:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
+[14:34:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
+[14:34:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[14:34:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:34:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[14:34:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[14:34:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vault [1.7.0]
+[14:34:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vault2 [1.7.0]
+[14:34:55] [Server thread/INFO]: [Vault] PlaceholderAPI expansions registered: %vault_*% and %vault2_*%.
+[14:34:55] [Server thread/INFO]: ==============================
+[14:34:55] [Server thread/INFO]: Vault2.0
+[14:34:55] [Server thread/INFO]: Version: 1.7.0
+[14:34:55] [Server thread/INFO]: Status: ENABLED
+[14:34:55] [Server thread/INFO]: ==============================
+[14:34:55] [Server thread/INFO]: [Vault] Internal economy registered without depending on Vault.jar
+[14:34:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:34:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:34:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:34:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:34:55] [Server thread/INFO]: Preparing level "world"
+[14:34:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:34:57] [Server thread/INFO]: Time elapsed: 623 ms
+[14:34:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:34:57] [Server thread/INFO]: Time elapsed: 87 ms
+[14:34:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:34:57] [Server thread/INFO]: Time elapsed: 132 ms
+[14:34:57] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[14:34:57] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[14:34:57] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
+[14:34:58] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:34:58] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[14:34:58] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20260625-0111
+[14:34:58] [Server thread/INFO]: [JustTPA] bStats enabled
+[14:34:58] [Server thread/INFO]: [FarmProtection] Enabling FarmProtection v1.0.0
+[14:34:58] [Server thread/INFO]: [FarmProtection] Enabled FarmProtection
+[14:34:58] [Server thread/INFO]: [SetHome] Enabling SetHome v6.2
+[14:34:58] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
+[14:35:00] [Thread-11/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[14:35:00] [Thread-11/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[14:35:00] [Server thread/INFO]: [PatPatPlugin] Enabling PatPatPlugin v1.2.5+0268419
+[14:35:01] [Server thread/INFO]: [patpat-plugin] Plugin started
+[14:35:01] [Server thread/INFO]: [TreeAssist] Enabling TreeAssist v7.3.69
+[14:35:02] [Server thread/INFO]: [TreeAssist] sending full Metrics! You can deactivate this in the config.yml
+[14:35:02] [Server thread/INFO]: [TreeAssist] debugging: off
+[14:35:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ta [0.0.1]
+[14:35:02] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v4.0.1
+[14:35:02] [Thread-12/INFO]: [TreeAssist] Checking for updates...
+[14:35:02] [Server thread/INFO]: 
+[14:35:02] [Server thread/INFO]: ╔══════════════════════════════════════════════════╗
+[14:35:02] [Server thread/INFO]: ║                                                  ║
+[14:35:02] [Server thread/INFO]: ║    ⭐ OnePlayerSleep v4.0.1 ⭐                ║
+[14:35:02] [Server thread/INFO]: ║                                                  ║
+[14:35:02] [Thread-11/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
+[14:35:02] [Server thread/INFO]: ║    Author: heyWaffie                           ║
+[14:35:02] [Server thread/INFO]: ║    Server: git-Paper-499 (MC: 1              ║
+[14:35:02] [Server thread/INFO]: ║                                                  ║
+[14:35:02] [Server thread/INFO]: ╠══════════════════════════════════════════════════╣
+[14:35:02] [Server thread/INFO]: ║                                                  ║
+[14:35:02] [Server thread/INFO]: ║    ✓ Event Listeners → LOADED              ║
+[14:35:02] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
+[14:35:02] [Server thread/INFO]: ║    ✓ Commands → REGISTERED                  ║
+[14:35:02] [Server thread/INFO]: ║    ✓ Configuration → INITIALIZED            ║
+[14:35:02] [Server thread/INFO]: ║                                                  ║
+[14:35:02] [Server thread/INFO]: ╠══════════════════════════════════════════════════╣
+[14:35:02] [Server thread/INFO]: ║                                                  ║
+[14:35:02] [Server thread/INFO]: ║    🌙 One Player Sleep → Enabled!          ║
+[14:35:02] [Server thread/INFO]: ║    💤 Skip nights with just ONE player!      ║
+[14:35:02] [Server thread/INFO]: ║                                                  ║
+[14:35:02] [Server thread/INFO]: ╚══════════════════════════════════════════════════╝
+[14:35:02] [Server thread/INFO]: 
+[14:35:02] [Server thread/INFO]: [GSit] Enabling GSit v3.5.1
+[14:35:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [3.5.1]
+[14:35:03] [Thread-11/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[14:35:03] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[14:35:03] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[14:35:03] [Server thread/INFO]: [RexonBaltop] Enabling RexonBaltop v1.0.0
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §e═══════════════════════════════════════
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §e│ Starting RexonBaltop v1.0.0
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §e│ File-based Baltop Plugin
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §e│ Developed by Rexon Network
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §e═══════════════════════════════════════
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §a✓ Configuration loaded successfully
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §a✓ Core managers initialized
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §a✓ File-based database initialized successfully
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §a✓ File-based database initialized successfully
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §a✓ Components initialized successfully
+[14:35:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: rexonbaltop [1.0.0]
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §a✓ PlaceholderAPI hook registered
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §a✓ Auto-update task started (interval: 60s)
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §a═══════════════════════════════════════
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §a│ RexonBaltop enabled successfully!
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §a│ Using file-based storage system
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §a│ All systems operational
+[14:35:03] [Server thread/INFO]: [RexonBaltop] §a═══════════════════════════════════════
+[14:35:03] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v7.2.0
+[14:35:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
+[14:35:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[14:35:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[14:35:05] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: wills-bookmark.tun.ply.gg
+[14:35:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[14:35:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[14:35:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using VaultEconomy as economy provider
+[14:35:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[14:35:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.20.4...
+[14:35:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[14:35:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[14:35:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[14:35:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[14:35:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[14:35:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[14:35:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 4221ms to complete
+[14:35:08] [Server thread/INFO]: [TAB] Enabling TAB v6.1.0
+[14:35:08] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.v1_20_R3.NMSImplementationProvider
+[14:35:09] [Server thread/INFO]: [TAB] Enabled in 589ms
+[14:35:09] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:35:09] [Server thread/INFO]: Running delayed init tasks
+[14:35:09] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[14:35:09] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0xb7174d69, L:/[0:0:0:0:0:0:0:0%0]:25565]
+[14:35:09] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
+[14:35:09] [Server thread/INFO]: Done (30.703s)! For help, type "help"
+[14:35:09] [Server thread/INFO]: Timings Reset
+[14:35:09] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[14:35:10] [Craft Scheduler Thread - 4 - JustTPA/INFO]: [JustTPA] You are using the latest version for your server.
+[14:37:02] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:33778, peerAddr=103.138.120.41:64418, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 103, -109, -71, -35, -26, -125, -14, 103, -118, 120, 41, -5, -94, 66, 90, -95, 44, -85, 8, 106, -128, 121, -114, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, 14, 12, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 5, 0, 33, 32, 0, -3, 5, 25, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 99, -35, 1, -63, -127, -101, 78, -75, -104, 29, -106, -32, 70, -124, -27, 38, -103, -49, 58], tunnelServerId=0, tunnelId=4424487, dataCenterId=18, portOffset=0}
+[14:37:02] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[14:37:02] [Thread-11/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[14:37:02] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[14:37:02] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[14:37:02] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[14:37:02] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
+[14:37:02] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[14:37:02] [Netty Epoll Server IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.138.120.41:64418
+[14:37:02] [Netty Epoll Server IO #1/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
+[14:37:05] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:33778, peerAddr=103.138.120.41:64421, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 104, -109, -71, -35, -26, -125, -14, 103, -118, 120, 41, -5, -91, -124, 14, -88, 90, -85, 8, 106, -128, 121, -111, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, -7, 57, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 0, 34, 33, 0, -3, 5, 26, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 46, -125, -14, 2, 19, 100, 44, -119, 55, 124, 122, 62, 95, -46, -7, -104, 43, -60, -54, -8], tunnelServerId=0, tunnelId=4424487, dataCenterId=18, portOffset=0}
+[14:37:05] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[14:37:05] [Thread-11/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[14:37:05] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[14:37:05] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[14:37:05] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[14:37:05] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
+[14:37:05] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[14:37:05] [Netty Epoll Server IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.138.120.41:64421
+[14:37:05] [Netty Epoll Server IO #2/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
+[14:37:05] [User Authenticator #0/INFO]: UUID of player ROFIOUS is 9e719473-443e-3d6e-bead-d220ff3de96c
+[14:37:06] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:37:06] [Server thread/INFO]: ROFIOUS joined the game
+[14:37:06] [TAB Processing Thread/INFO]: [TAB] [WARN] Player ROFIOUS's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[14:37:06] [Server thread/INFO]: ROFIOUS[/127.0.0.1:50442] logged in with entity id 74 at ([world]2816.3984475593497, 65.0, -361.178272363139)
+[14:38:10] [Server thread/INFO]: ROFIOUS issued server command: /sellgui
+[14:38:12] [Server thread/INFO]: Shop >> ROFIOUS sold 2x Sculk Sensor(Redstone.page1.items.30) for $62.50 with the sell gui.
+[14:39:05] [Thread-11/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:39:52] [Server thread/INFO]: ROFIOUS issued server command: /ah
+[14:40:17] [Server thread/INFO]: ROFIOUS issued server command: /shop
+[14:41:07] [Server thread/INFO]: Set the weather to clear
+[14:41:24] [Server thread/INFO]: ROFIOUS issued server command: /baltop
+[14:42:27] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:33778, peerAddr=103.68.4.255:56404, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 103, -109, -71, -35, -26, -125, -14, 103, 68, 4, -1, -36, 84, -124, -122, -115, 101, -85, 8, 106, -128, 122, -45, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, 88, 69, -85, 8, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 13, 0, 33, 32, 0, -121, 6, 25, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 99, -35, 1, 36, 47, -72, -38, 54, 72, 21, -71, 43, 111, 67, 1, 33, 26, -93, 64], tunnelServerId=0, tunnelId=4424487, dataCenterId=2, portOffset=0}
+[14:42:27] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[14:42:27] [Thread-11/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[14:42:27] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[14:42:27] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[14:42:27] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[14:42:27] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
+[14:42:27] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[14:42:27] [Netty Epoll Server IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.68.4.255:56404
+[14:42:27] [Netty Epoll Server IO #3/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
+[14:43:06] [Thread-11/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:43:24] [Server thread/INFO]: ROFIOUS issued server command: /shop
+[14:43:26] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:33778, peerAddr=103.216.57.137:63843, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 103, -109, -71, -35, -26, -125, -14, 103, -40, 57, -119, -7, 99, -24, 45, 0, 117, -85, 8, 106, -128, 123, 14, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, 83, 85, -85, 8, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 7, 0, 33, 32, 0, -3, 5, 25, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 99, -35, 1, -82, -111, -66, 24, -17, 49, 52, -54, 117, 45, 51, 88, 86, 13, -75, 19], tunnelServerId=0, tunnelId=4424487, dataCenterId=2, portOffset=0}
+[14:43:26] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[14:43:26] [Thread-11/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[14:43:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[14:43:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[14:43:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[14:43:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
+[14:43:26] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[14:43:26] [Netty Epoll Server IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.216.57.137:63843
+[14:43:26] [Netty Epoll Server IO #0/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
+[14:43:41] [Server thread/INFO]: No entity was found
+[14:43:44] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:33778, peerAddr=103.216.57.137:63844, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 104, -109, -71, -35, -26, -125, -14, 103, -40, 57, -119, -7, 100, 81, -67, 62, -68, -85, 8, 106, -128, 123, 32, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, 48, -101, -85, 8, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 3, 0, 34, 33, 0, -3, 5, 26, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 46, -125, -14, 2, 71, -91, -77, 120, -88, 47, 37, 113, -13, -79, -89, 30, 120, -7, -117, 82], tunnelServerId=0, tunnelId=4424487, dataCenterId=2, portOffset=0}
+[14:43:44] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[14:43:44] [Thread-11/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[14:43:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[14:43:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[14:43:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[14:43:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
+[14:43:44] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[14:43:44] [Netty Epoll Server IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.216.57.137:63844
+[14:43:44] [Netty Epoll Server IO #1/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
+[14:43:44] [User Authenticator #1/INFO]: UUID of player SRT_SHADOW is 27807e28-542e-31a5-ad21-c6dbb8f27607
+[14:43:46] [TAB Processing Thread/INFO]: [TAB] [WARN] Player SRT_SHADOW's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[14:43:46] [Server thread/INFO]: SRT_SHADOW joined the game
+[14:43:46] [Server thread/INFO]: SRT_SHADOW[/127.0.0.1:60208] logged in with entity id 1889 at ([world]2727.5043042735388, 78.0, -347.69999998807907)
+[14:44:04] [Server thread/INFO]: Removed every effect from SRT_SHADOW
+[14:44:36] [Server thread/INFO]: Shop >> ROFIOUS bought 1 x Sheep Spawner(Spawners.page1.items.26) for $45,000.00 with the buy screen.
+[14:45:24] [Server thread/INFO]: SRT_SHADOW was slain by ROFIOUS
+[14:47:08] [Server thread/INFO]: ROFIOUS issued server command: /shop
+[14:47:08] [Thread-11/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:47:22] [Server thread/INFO]: Shop >> ROFIOUS bought 64 x Experience Bottle(Miscellaneous.page1.items.11) for $6,908.16 with the buy screen.
+[14:49:18] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:33778, peerAddr=103.68.4.255:56803, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 103, -109, -71, -35, -26, -125, -14, 103, 68, 4, -1, -35, -29, 32, 67, -116, -125, -85, 8, 106, -128, 124, 110, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, 76, 99, -85, 8, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 7, 0, 33, 32, 0, -121, 6, 25, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 99, -35, 1, 45, -67, -128, -6, -68, 0, -108, -99, 56, 45, -72, -120, 83, -96, -57, 93], tunnelServerId=0, tunnelId=4424487, dataCenterId=2, portOffset=0}
+[14:49:18] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[14:49:18] [Thread-11/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[14:49:18] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[14:49:18] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[14:49:18] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[14:49:18] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
+[14:49:18] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[14:49:18] [Netty Epoll Server IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.68.4.255:56803
+[14:49:18] [Netty Epoll Server IO #2/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
+[14:49:24] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:33778, peerAddr=103.68.4.255:56813, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 104, -109, -71, -35, -26, -125, -14, 103, 68, 4, -1, -35, -19, -5, -116, -73, 106, -85, 8, 106, -128, 124, 116, 0, 0, 0, 0, 0, 39, 94, -12, 0, 0, 0, 0, 0, 100, -47, 34, 0, 0, 0, 0, 0, 67, -125, 39, -94, 73, -85, 8, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 3, 0, 34, 33, 0, -121, 6, 26, 119, 105, 108, 108, 115, 45, 98, 111, 111, 107, 109, 97, 114, 107, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 46, -125, -14, 2, -25, 100, -24, -6, -25, 19, -128, -57, 26, -120, -14, -17, -111, 20, 56, -73], tunnelServerId=0, tunnelId=4424487, dataCenterId=2, portOffset=0}
+[14:49:24] [Thread-11/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[14:49:24] [Thread-11/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[14:49:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[14:49:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[14:49:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[14:49:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:25565
+[14:49:24] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[14:49:24] [Netty Epoll Server IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.68.4.255:56813
+[14:49:24] [Netty Epoll Server IO #3/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
+[14:49:24] [User Authenticator #2/INFO]: UUID of player DREAME_KILLAR is 69f3fc4c-a3f2-3669-9976-6ad87c357434
+[14:49:25] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Detected skin change of DREAME_KILLAR, updating cached skin...
+[14:49:25] [Server thread/INFO]: DREAME_KILLAR joined the game
+[14:49:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Player DREAME_KILLAR's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[14:49:26] [Server thread/INFO]: DREAME_KILLAR[/127.0.0.1:56476] logged in with entity id 3479 at ([world]2743.1495054166585, 78.0, -362.4376045229868)
+[14:50:10] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:50:20] [Server thread/INFO]: DREAME_KILLAR issued server command: /tpa SRT_SHADOW
+[14:50:20] [Server thread/INFO]: ROFIOUS issued server command: /sellgui
+[14:50:21] [Server thread/INFO]: SRT_SHADOW issued server command: /sellgui
+[14:50:26] [Server thread/INFO]: Shop >> ROFIOUS sold 60x Quartz(Ores.page1.items.21), 54x Spore Blossom(Decoration.page1.items.6), 3x White Wool(Blocks.page6.items.247) for $193.77 with the sell gui.
+[14:50:27] [Server thread/INFO]: Shop >> SRT_SHADOW sold 2x Cooked Beef(Food.page1.items.11), 5x Arrow(Mobs.page1.items.1), 51x Spruce Log(Blocks.page5.items.221), 8x Spruce Planks(Blocks.page5.items.222), 2x Cooked Porkchop(Food.page1.items.14), 13x Netherrack(Blocks.page3.items.131), 1x Cookie(Food.page1.items.5), 7x Cooked Chicken(Food.page1.items.12), 8x Dirt(Blocks.page3.items.105) for $67.89 with the sell gui.
+[14:50:45] [Server thread/INFO]: DREAME_KILLAR issued server command: /tpa ROFIOUS
+[14:51:05] [Server thread/INFO]: SRT_SHADOW issued server command: /tpaccept
+[14:51:09] [Thread-11/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:51:24] [Server thread/INFO]: SRT_SHADOW was slain by ROFIOUS
+[14:51:44] [Server thread/INFO]: ROFIOUS issued server command: /shop
+[14:51:55] [Server thread/INFO]: SRT_SHADOW issued server command: /shop
+[14:52:09] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:52:13] [Server thread/INFO]: DREAME_KILLAR was slain by SRT_SHADOW
+[14:52:20] [Server thread/INFO]: DREAME_KILLAR was slain by SRT_SHADOW
+[14:52:41] [Server thread/INFO]: DREAME_KILLAR was slain by SRT_SHADOW using [GETSUGATENSHO]
+[14:52:57] [Server thread/INFO]: DREAME_KILLAR was slain by SRT_SHADOW using [GETSUGATENSHO]
+[14:53:00] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:02] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:04] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:07] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:13] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:19] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:23] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:25] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:28] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:29] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:31] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:33] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:36] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:37] [Server thread/INFO]: DREAME_KILLAR was slain by SRT_SHADOW using [GETSUGATENSHO]
+[14:53:42] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:44] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:46] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:53:50] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:54:03] [Server thread/INFO]: DREAME_KILLAR was slain by SRT_SHADOW
+[14:54:04] [Server thread/INFO]: DREAME_KILLAR has made the advancement [Who is Cutting Onions?]
+[14:54:08] [Server thread/INFO]: DREAME_KILLAR was slain by SRT_SHADOW
+[14:54:11] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:54:37] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:55:09] [Server thread/INFO]: DREAME_KILLAR was slain by ROFIOUS
+[14:55:10] [Thread-11/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:55:11] [Server thread/INFO]: DREAME_KILLAR has made the advancement [Ice Bucket Challenge]
+[14:55:18] [Server thread/INFO]: DREAME_KILLAR was slain by SRT_SHADOW using [GETSUGATENSHO]

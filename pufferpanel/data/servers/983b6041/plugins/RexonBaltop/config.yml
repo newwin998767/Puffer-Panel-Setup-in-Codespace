@@ -1,0 +1,175 @@
+# ════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+# ʀᴇxᴏɴ ʙᴀʟᴛᴏᴘ ᴄᴏɴꜰɪɢ
+# ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴀʟᴛᴏᴘ ᴘʟᴜɢɪɴ - ꜰɪʟᴇ-ʙᴀꜱᴇᴅ ᴅᴀᴛᴀʙᴀꜱᴇ
+# ᴄᴏᴍᴘᴀᴛɪʙʟᴇ ᴡɪᴛʜ ᴍɪɴᴇᴄʀᴀꜰᴛ 1.20.1+ ꜱᴇʀᴠᴇʀꜱ
+# ════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+# ᴅᴀᴛᴀʙᴀꜱᴇ ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ (ꜰɪʟᴇ-ʙᴀꜱᴇᴅ)
+database:
+  type: "YAML"  # YAML or JSON
+  file: "baltop_data.yml"
+  auto-save: true
+  save-interval: 120 # seconds
+
+# ᴜᴘᴅᴀᴛᴇ ꜱᴇᴛᴛɪɴɢꜱ
+update:
+  interval: 60 # ꜱᴇᴄᴏɴᴅꜱ
+  auto-update: true # ᴅᴏɴ'ᴛ ᴄʜᴀɴɢᴇ
+
+# ᴄᴜʀʀᴇɴᴄy ꜱᴇᴛᴛɪɴɢꜱ
+currency:
+  symbol: "$" 
+  # symbol: "£"  
+  # symbol: "¥"  
+  # symbol: "€"  
+
+
+# ꜱᴍᴀʀᴛ ɴᴜᴍʙᴇʀ ꜰᴏʀᴍᴀᴛᴛɪɴɢ ꜱyꜱᴛᴇᴍ
+number-formatting:
+  enabled: true
+  format: "ADVANCED"  # ADVANCED, COMMA, PLAIN
+  # ᴀʙʙʀᴇᴠɪᴀᴛɪᴏɴ ꜱᴇᴛᴛɪɴɢꜱ
+  abbreviations:
+    thousand: "K"
+    million: "M"
+    billion: "B"
+    trillion: "T"
+  # ꜱᴍᴀʀᴛ ᴅᴇᴄɪᴍᴀʟ ꜱᴇᴛᴛɪɴɢꜱ - VALIDATED
+  decimals:
+    show-decimals: true
+    decimal-places: 2  # ᴍᴀx 2 - ᴠᴀʟɪᴅᴀᴛᴇᴅ ɪɴ ᴄᴏᴅᴇ
+    hide-zero-decimals: true  # 10000→10K, 10100→10.1K, 10010→10.01K
+
+# ɢᴜɪ ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ
+gui:
+  title: "ᴍᴏꜱᴛ ᴍᴏɴᴇʏ - ᴘᴀɢᴇ {current}"
+  size: 54
+  max-players-per-page: 45
+  
+  player-heads:
+    enabled: true
+  
+  buttons:
+    previous:
+      material: "ARROW"
+      name: "§e← ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ"
+      lore:
+        - "§7ᴄʟɪᴄᴋ ᴛᴏ ɢᴏ ᴛᴏ ᴛʜᴇ ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ"
+      slot: 45
+    next:
+      material: "ARROW" 
+      name: "§eɴᴇxᴛ ᴘᴀɢᴇ →"
+      lore:
+        - "§7ᴄʟɪᴄᴋ ᴛᴏ ɢᴏ ᴛᴏ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ"
+      slot: 53
+    search:
+      material: "COMPASS"
+      name: "§b🔍 ꜱᴇᴀʀᴄʜ ᴘʟᴀyᴇʀ"
+      lore:
+        - "§e✎ ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇᴀʀᴄʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ᴘʟᴀyᴇʀ!"
+      slot: 50
+    refresh:
+      material: "EMERALD"
+      name: "§a⟲ ʀᴇꜰʀᴇꜱʜ ᴅᴀᴛᴀ"
+      lore:
+        - "§a⟲ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇꜰʀᴇꜱʜ!"
+      slot: 49
+    close:
+      material: "BARRIER"
+      name: "§c✖ ᴄʟᴏꜱᴇ"
+      lore:
+        - "§7ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴏꜱᴇ ᴛʜᴇ ɢᴜɪ"
+      slot: 46
+    page-info:
+      material: "PAPER"
+      name: "§6📄 ᴘᴀɢᴇ {current}/{total}"
+      lore: []
+      slot: 52
+    player-head:
+      material: "PLAYER_HEAD"
+      name: "§e👤 {player}"
+      lore:
+        - "§7ʏᴏᴜʀ ᴘʀᴏꜰɪʟᴇ"
+        - "§7ʙᴀʟᴀɴᴄᴇ: §a{balance}"
+        - "§7ᴘᴏꜱɪᴛɪᴏɴ: §6#{rank}"
+      slot: 48
+      
+  player-entry:
+    name: "§e{player}"
+    lore:
+      - "§7ʙᴀʟᴀɴᴄᴇ: §a{balance}"
+      - "§7ᴘᴏꜱɪᴛɪᴏɴ: §6#{rank}"
+
+# ᴍᴇꜱꜱᴀɢᴇꜱ ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ
+messages:
+  gui:
+    opening: "§7ᴏᴘᴇɴɪɴɢ ʙᴀʟᴛᴏᴘ ɢᴜɪ..."
+    opening-enabled: true
+    # REMOVED: closing messages (no longer used)
+    refreshed-successfully: "§7ɢᴜɪ ʀᴇꜰʀᴇꜱʜᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ"
+    search-coming-soon: "§bꜱᴇᴀʀᴄʜ ꜰᴇᴀᴛᴜʀᴇ ᴄᴏᴍɪɴɢ ꜱᴏᴏɴ!"
+    previous-page: "§eᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ!"
+    next-page: "§eɴᴇxᴛ ᴘᴀɢᴇ!"
+    
+  player-info:
+    profile-header: "§6§l▰▰▰ ʏᴏᴜʀ ᴘʀᴏꜰɪʟᴇ ▰▰▰"
+    balance-line: "§7ʙᴀʟᴀɴᴄᴇ: §a{balance}"
+    rank-line: "§7ᴘᴏꜱɪᴛɪᴏɴ: §6#{rank}"
+    rank-unranked: "§7ᴘᴏꜱɪᴛɪᴏɴ: §cᴜɴʀᴀɴᴋᴇᴅ"
+    
+  commands:
+    reload-success: "§aʀᴇxᴏɴʙᴀʟᴛᴏᴘ ʀᴇʟᴏᴀᴅᴇᴅ!"
+    reload-failed: "§cꜰᴀɪʟᴇᴅ ᴛᴏ ʀᴇʟᴏᴀᴅ: {error}"
+    update-started: "§eᴜᴘᴅᴀᴛɪɴɢ ᴅᴀᴛᴀ..."
+    update-completed: "§aᴜᴘᴅᴀᴛᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ! {count} ᴘʟᴀyᴇʀꜱ ᴘʀᴏᴄᴇꜱꜱᴇᴅ."
+    players-only: "§cᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴏɴʟy ꜰᴏʀ ᴘʟᴀyᴇʀꜱ!"
+    unknown-subcommand: "§cᴜɴᴋɴᴏᴡɴ ꜱᴜʙᴄᴏᴍᴍᴀɴᴅ: {subcommand}"
+    invalid-page: "§cᴘᴀɢᴇ ɴᴜᴍʙᴇʀ ᴍᴜꜱᴛ ʙᴇ ɢʀᴇᴀᴛᴇʀ ᴛʜᴀɴ 0!"
+    
+  permissions:
+    no-permission: "§cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪꜱꜱɪᴏɴ!"
+    no-use-permission: "§cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ᴛᴏ ᴜꜱᴇ ʙᴀʟᴛᴏᴘ!"
+    no-admin-permission: "§cʏᴏᴜ ɴᴇᴇᴅ ᴀᴅᴍɪɴ ᴘᴇʀᴍɪꜱꜱɪᴏɴ!"
+    
+  errors:
+    gui-failed: "§cꜰᴀɪʟᴇᴅ ᴛᴏ ᴏᴘᴇɴ ɢᴜɪ: {error}"
+    database-error: "§cᴅᴀᴛᴀʙᴀꜱᴇ ᴇʀʀᴏʀ: {error}"
+    economy-error: "§cᴇᴄᴏɴᴏᴍy ᴇʀʀᴏʀ: {error}"
+    update-failed: "§cꜰᴀɪʟᴇᴅ ᴛᴏ ᴜᴘᴅᴀᴛᴇ ᴅᴀᴛᴀ: {error}"
+    
+  help:
+    header: "§6§l═══════ ʀᴇxᴏɴʙᴀʟᴛᴏᴘ ʜᴇʟᴘ ═══════"
+    basic-commands: "§e§lʙᴀꜱɪᴄ ᴄᴏᴍᴍᴀɴᴅꜱ:"
+    baltop-cmd: "§e/baltop §7- ᴏᴘᴇɴ ʙᴀʟᴛᴏᴘ ɢᴜɪ"
+    baltop-gui-cmd: "§e/baltop gui §7- ᴏᴘᴇɴ ʙᴀʟᴛᴏᴘ ɢᴜɪ"
+    baltop-page-cmd: "§e/baltop <page> §7- ᴏᴘᴇɴ ꜱᴘᴇᴄɪꜰɪᴄ ᴘᴀɢᴇ"
+    admin-commands: "§6§lᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ:"
+    reload-cmd: "§e/baltop reload §7- ʀᴇʟᴏᴀᴅ ᴄᴏɴꜰɪɢ"
+    update-cmd: "§e/baltop update §7- ᴜᴘᴅᴀᴛᴇ ᴅᴀᴛᴀ"
+    help-cmd: "§e/baltop help §7- ꜱʜᴏᴡ ᴛʜɪꜱ ʜᴇʟᴘ"
+    
+  success:
+    data-updated: "§aᴅᴀᴛᴀ ᴜᴘᴅᴀᴛᴇᴅ!"
+    config-reloaded: "§aᴄᴏɴꜰɪɢ ʀᴇʟᴏᴀᴅᴇᴅ!"
+    gui-opened: "§aɢᴜɪ ᴏᴘᴇɴᴇᴅ!"
+
+# ꜱᴏᴜɴᴅ ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ
+sounds:
+  enabled: true
+  global-volume: 1.0
+  silent-mode: false
+  name: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  volume: 1.0
+  pitch: 1.0
+
+# ᴄᴀᴄʜᴇ ꜱᴇᴛᴛɪɴɢꜱ
+cache:
+  enabled: true
+  expire-time: 600
+
+# ᴘʟᴜɢɪɴ ꜱᴇᴛᴛɪɴɢꜱ
+debug: false
+
+# ᴘʟᴀᴄᴇʜᴏʟᴅᴇʀᴀᴘɪ ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ
+placeholderapi:
+  enabled: true
