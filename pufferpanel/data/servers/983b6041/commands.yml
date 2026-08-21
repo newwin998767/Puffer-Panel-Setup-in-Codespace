@@ -1,7 +1,0 @@
-command-block-overrides: []
-ignore-vanilla-permissions: false
-aliases:
-  top:
-  - baltop
-  icanhasbukkit:
-  - version $1-
